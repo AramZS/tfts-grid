@@ -11,7 +11,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://grid.talesfromthesp.in",
+	site: "https://thegrid.talesfromthesp.in",
 	integrations: [mdx(), partytown(), sitemap()],
 	adapter: vercel(),
 	output: "server",
