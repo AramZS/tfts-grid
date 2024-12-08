@@ -7,8 +7,10 @@ import vercel from '@astrojs/vercel';
 
 import partytown from '@astrojs/partytown';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [mdx(), partytown()],
+  integrations: [mdx(), partytown(), sitemap()],
   adapter: vercel()
 });
